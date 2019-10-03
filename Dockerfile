@@ -12,9 +12,7 @@ WORKDIR $APP_PATH
 
 COPY --chown=node . $APP_PATH
 
-RUN npm install grunt-contrib-clean && \
-    npm install grunt-contrib-nodeunit && \
-    npm install
+RUN npm install
 
 EXPOSE $APP_PORT
 
