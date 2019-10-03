@@ -40,5 +40,9 @@
     "mustache": "^2.3.0",
     "socket.io": "^2.2.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-nodeunit": "^2.0.0"
+  }
 }
