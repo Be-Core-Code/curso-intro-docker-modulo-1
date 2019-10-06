@@ -3,7 +3,7 @@
 
 ^^^^^^
 ```bash
-> docker run --rm hello-world
+> docker run hello-world
 
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
@@ -28,11 +28,11 @@ For more examples and ideas, visit:
 ```
 
 notes:
-
+**No ejecutar este comando la opción `--rm`, ya veremos en el módulo 2 cómo borrarlo. **
 Para validar que la instalación se ha realizado correctamente, lo que vamos a hacer es levantar nuestro primer contenedor:
 
 ```bash
-> docker run --rm hello-world
+> docker run hello-world
 ```
 
 Este comando hará varias cosas:
@@ -40,7 +40,6 @@ Este comando hará varias cosas:
 * Levantará un contenedor con esa imagen ejecutando el comando de ese contenedor
 * Nos muestra la salida del comando que se ha ejecutado dentro del contenedor
 * Apaga el contenedor
-* Borra el contenedor (opción `--rm`)
 
 ^^^^^^
 
