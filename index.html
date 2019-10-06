@@ -22,9 +22,31 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+
+		<style>
+			#cc-license {
+				transform:  translate(-48%, 50vh) rotate(-90deg);
+				position: absolute;
+				top: 0px;
+				text-align: center;
+				font-family: inherit;
+				font-size: 0.3em;
+				width: 100%;
+				left: 0px;
+				z-index: 2;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
+			<div id="cc-license">
+					<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+						<img alt="Creative Commons License" style="border-width:0; vertical-align: middle" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/>
+					</a>
+					This work is licensed under a 
+					<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+			</div>
+	
 			<div class="slides">
 				<section>
 					<h2>Curso de Introducción a Docker</h2>
