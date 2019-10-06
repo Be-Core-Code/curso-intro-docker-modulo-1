@@ -12,7 +12,7 @@
 Para ver las diapositivas:
 
 ```bash
-> docker run --rm -ti -p "8001:8001" becorecode/curso-intro-docker-modulo-1:latest
+> docker run --rm -p "8001:8001" becorecode/curso-intro-docker-modulo-1:latest
 ```
 
 Una vez levantado el contenedor, accede con un navegador web a `http://localhost:8001`
