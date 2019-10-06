@@ -1,6 +1,6 @@
 * [Módulo 1: Instalación de docker](https://hub.docker.com/r/becorecode/curso-intro-docker-modulo-1)
 * [Módulo 2: Gestión de contenedores](https://hub.docker.com/r/becorecode/curso-intro-docker-modulo-2)
-* Módulo 3: Imágenes
+* [Módulo 3: Imágenes](https://hub.docker.com/r/becorecode/curso-intro-docker-modulo-3)
 * Módulo 4: Creando nuestra imágenes (Dockerfile)
 * Módulo 5: Volúmenes
 * Módulo 6: Networking
