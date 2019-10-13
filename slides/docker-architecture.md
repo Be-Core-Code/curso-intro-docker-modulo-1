@@ -126,6 +126,17 @@ Detenemos el contenedor y lo borramos
 docker container stop registry && docker container rm -v registry
 ```
 
+canister.io
+
+Lo intentamos utilizar durante los ejercicios del módulo 2 y no conseguimos
+que la aplicación nos enviase los correos de validación. 
+
+Si en un futuro lo pruebo y veo que funciona correctamente, actualizaré esta
+diapositiva.
+
+Cualquier comentario al respecto lo podéis hacer sobre este 
+[issue de githab](https://github.com/Be-Core-Code/curso-intro-docker-modulo-1/issues/1)
+
 Portus:
 
 Otro registry de Docker open source:
