@@ -6,6 +6,8 @@ LABEL com.becorecode.author_email="hola@becorecode.com"
 
 ENV APP_PATH=/home/node
 ENV APP_PORT=8001
+ENV NODE_NO_WARNINGS=1
+
 USER node
 
 WORKDIR $APP_PATH
